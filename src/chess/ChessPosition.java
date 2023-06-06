@@ -31,7 +31,7 @@ public class ChessPosition {
   // ...
   // entao a matriz de coluna = coluna do xadrez - 'a'
 
-  protected Position tPosition() {
+  protected Position toPosition() {
     return new Position(8 - row, column - 'a');
   }
 

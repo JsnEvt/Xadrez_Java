@@ -48,6 +48,19 @@ public class Board {
     piece.position = position;
   }
 
+  public Piece removePiece(Position position) {
+    if (!positionExists(position)) {
+      throw new BoardException("Position not on the board");
+    }
+    if (piece(position) == null) {
+      return null;
+    }
+    Piece aux = piece(position);
+    aux.position = null;
+    pieces[position.getRow()][position.getColumn()] = null;
+    return aux;
+  }
+
   // isso e pra faciliar a implementacao do proximo metodo.
   // posicao existe quando existe algum valor no array da matriz de linhas e
   // colunas
