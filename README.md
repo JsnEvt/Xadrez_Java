@@ -2,15 +2,15 @@
 <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 <img alt="Feito por Nélio Alves" src="https://img.shields.io/badge/feito%20por-Nélio Alves-%237519C1">	
 </p>
-<p align="center">
-	<a href="https://www.udemy.com/course/java-curso-completo/?couponCode=KEEPLEARNING">Visite a página do curso na Udemy</a>
-</p>
 
   <div align="center">
 	  <a  href="https://www.udemy.com">
 		  <img src="https://github.com/JsnEvt/DataFrames/blob/main/assets/udemy_b25.png">
 	  </a>
   </div>
+<p align="center">
+	<a href="https://www.udemy.com/course/java-curso-completo/?couponCode=KEEPLEARNING">Visite a página do curso na Udemy</a>
+</p>
 
 # Jogo de Xadrez em Java
 
