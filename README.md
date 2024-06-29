@@ -1,5 +1,7 @@
+<p>
 <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-<img alt="Feito por Nélio Alves" src="https://img.shields.io/badge/feito%20por-Nélio Alves-%237519C1">
+<img alt="Feito por Nélio Alves" src="https://img.shields.io/badge/feito%20por-Nélio Alves-%237519C1">	
+</p>
 <p align="center">
 	<a href="https://www.udemy.com/course/java-curso-completo/?couponCode=KEEPLEARNING">Visite a página do curso na Udemy</a>
 </p>
@@ -66,10 +68,6 @@ Execute a classe App.java.
 O tabuleiro será exibido no terminal.
 Insira os comandos para movimentar as peças (ex: e2 e4 para mover um peão de e2 para e4).
 O jogo continuará até que um dos jogadores dê cheque-mate ou ocorra um empate.
-
-
-# Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 # Agradecimentos
 Agradecimentos especiais ao professor Nélio Alves pelo excelente curso de Java e por proporcionar a base para o desenvolvimento deste projeto.
