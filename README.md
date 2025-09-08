@@ -12,54 +12,47 @@
 	<a href="https://www.udemy.com/course/java-curso-completo/?couponCode=KEEPLEARNING">Visite a página do curso na Udemy</a>
 </p>
 
-# Jogo de Xadrez em Java
+# ♟️ Jogo de Xadrez em Java
 
-Este é um projeto desenvolvido durante o curso de Java completo ministrado pelo professor Nélio Alves na plataforma Udemy. O objetivo deste projeto é criar um jogo de xadrez utilizando a linguagem Java, aplicando conceitos de Programação Orientada a Objetos (POO).
+Projeto desenvolvido durante o curso **"Java COMPLETO Programação Orientada a Objetos + Projetos"** do professor **Nélio Alves**.  
+O objetivo é aplicar conceitos de **Programação Orientada a Objetos (POO)** na construção de um jogo de xadrez em **Java** rodando no console.
 
-## Funcionalidades
+---
 
-- Tabuleiro de xadrez com 64 casas.
-- Peças de xadrez: rei, rainha, bispo, cavalo, torre e peão.
-- Movimentação das peças de acordo com as regras do xadrez.
-- Cheque e cheque-mate.
-- Promoção de peão.
-- Partida entre dois jogadores.
+## 🧭 Visão Geral
+Este projeto implementa as regras básicas do xadrez, controlando movimentos, capturas, xeque e xeque-mate.  
+Toda a lógica é construída a partir de classes, herança, polimorfismo e tratamento de exceções.
 
-## Pré-requisitos
+---
 
-- JDK 11 ou superior
-- IDE Java (Eclipse, IntelliJ, NetBeans, etc.)
+## ✨ Principais Recursos
+- Representação das peças de xadrez como **objetos**.
+- Controle de **movimentos válidos** para cada peça.
+- Tratamento de **jogadas especiais** (roque, en passant, promoção).
+- Verificação de **xeque** e **xeque-mate**.
+- Interface de **texto no console** para interação.
+- Estrutura **modularizada** em camadas para separar responsabilidades.
 
-## Instalação
+---
 
-1. Clone o repositório para sua máquina local:
-   ```bash
-   git clone https://github.com/jsnevt/xadrez_java.git
+## 🏗️ Arquitetura & Padrões
+O projeto segue uma arquitetura **em camadas**:
+- **Camada Board** → Representa o tabuleiro e as posições.
+- **Camada Chess** → Contém as regras do jogo, movimentos e lógica de validação.
+- **Camada Application (UI)** → Responsável pela interface no console e interação com o usuário.
 
-## Estrutura do Projeto
-O projeto é estruturado da seguinte forma:
+---
 
+## ⚙️ Ferramentas e Tecnologias
+- **Java** → Linguagem principal, explorando fortemente os conceitos de POO.
+- **JDK** → Ambiente de execução e compilação.
+- **VS Code** → Utilizado para edição e organização do código.
+- **Console** → Interface de saída para exibição do tabuleiro e entrada de comandos.
 
-src/<br>
-├── application/<br>
-│ └── App.java # Classe principal que inicia o jogo<br>
-├── boardgame/<br>
-│ ├── Board.java # Classe que representa o tabuleiro<br>
-│ ├── Piece.java # Classe base para todas as peças do jogo<br>
-│ └── Position.java # Classe que representa uma posição no tabuleiro<br>
-├── chess/<br>
-│ ├── ChessMatch.java # Classe que gerencia uma partida de xadrez<br>
-│ ├── ChessPiece.java # Classe base para as peças de xadrez<br>
-│ ├── ChessPosition.java # Classe que representa uma posição no tabuleiro de xadrez<br>
-├── chessPieces/<br>
-│ ├── King.java # Classe que representa o rei<br>
-│ ├── Queen.java # Classe que representa a rainha<br>
-│ ├── Rook.java # Classe que representa a torre<br>
-│ ├── Bishop.java # Classe que representa o bispo<br>
-│ ├── Knight.java # Classe que representa o cavalo<br>
-│ └── Pawn.java # Classe que representa o peão<br>
-└── ui/<br>
-└── UI.java # Classe responsável pela interface do usuário (console)<br>
+---
+
+## 📂 Estrutura de Pastas
+
 
 
 # Uso
