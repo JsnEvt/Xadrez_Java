@@ -51,9 +51,28 @@ O projeto segue uma arquitetura **em camadas**:
 
 ---
 
+## 📚 Conceitos de POO aplicados
+
+Encapsulamento → Organização e proteção dos atributos e métodos.
+
+Herança → Generalização das peças a partir de uma classe base.
+
+Polimorfismo → Diferentes comportamentos para movimentos de peças.
+
+Exceções personalizadas → Tratamento de erros durante o jogo.
+
 ## 📂 Estrutura de Pastas
 Veja a estrutura completa do projeto em [tree.txt](./tree.txt).
 
+## 🚀 Como Executar
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/JsnEvt/Xadrez_Java.git
+2. Abra o projeto em sua IDE (Eclipse ou IntelliJ).
+
+3. Compile e execute a classe principal Program.java.
+
+4. Jogue utilizando o console.
 
 # Uso
 Para iniciar o jogo, execute a classe Program.java. A interface do usuário é baseada em console, onde os jogadores inserem os comandos para movimentar as peças.
@@ -62,16 +81,17 @@ O tabuleiro será exibido no terminal.
 Insira os comandos para movimentar as peças (ex: e2 e4 para mover um peão de e2 para e4).
 O jogo continuará até que um dos jogadores dê cheque-mate ou ocorra um empate.
 
+👨‍💻 Autor
+
+Projeto desenvolvido a partir das aulas do professor Nélio Alves.
+Implementado por [Jason Santos] como parte prática do curso.
+
 # Agradecimentos
 Agradecimentos especiais ao professor Nélio Alves pelo excelente curso de Java e por proporcionar a base para o desenvolvimento deste projeto.
-
-Autor
 
 [![Linkedin Badge](https://img.shields.io/badge/-Jason-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jason-everton/)](https://www.linkedin.com/in/jason-everton/)
 
 [![Gmail Badge](https://img.shields.io/badge/-jasonemsw10@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jasonemsw10@gmail.com)](mailto:jasonemsw10@gmail.com)
-
-Feito por Jason Everton 👋🏽 
 
 [Entre em contato!](https://www.linkedin.com/in/jason-everton)
 
