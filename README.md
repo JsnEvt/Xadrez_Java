@@ -46,13 +46,13 @@ O projeto segue uma arquitetura **em camadas**:
 ## ⚙️ Ferramentas e Tecnologias
 - **Java** → Linguagem principal, explorando fortemente os conceitos de POO.
 - **JDK** → Ambiente de execução e compilação.
-- **VS Code** → Utilizado para edição e organização do código.
+- **Eclipse** → Utilizado para edição e organização do código.
 - **Console** → Interface de saída para exibição do tabuleiro e entrada de comandos.
 
 ---
 
 ## 📂 Estrutura de Pastas
-
+Veja a estrutura completa do projeto em [tree.txt](./tree.txt).
 
 
 # Uso
